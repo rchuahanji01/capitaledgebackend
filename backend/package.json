@@ -1,5 +1,5 @@
 {
-  "name": "idurar-erp-crm",
+  "name": "capitaledge",
   "version": "4.1.0",
   "engines": {
     "npm": "10.2.4",
@@ -48,15 +48,8 @@
     "@": "src"
   },
   "main": "server.js",
-  "author": "IDURAR",
-  "email": "hello@idurarapp.com",
-  "license": "Fair-code License",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/idurar/idurar-erp-crm/.git"
-  },
-  "bugs": {
-    "url": "https://github.com/idurar/idurar-erp-crm//issues"
-  },
-  "homepage": "https://github.com/idurar/idurar-erp-crm/#readme"
+  "author": "Rakesh",
+  "email": "rakesh112233rc@gmail.com",
+  "license": "Fair-code License"
+ 
 }
