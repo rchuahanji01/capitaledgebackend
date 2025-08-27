@@ -25,19 +25,19 @@ const app = express();
 //   })
 // );
 
-app.use(
-  cors({
-    origin: '*', // allow all origins
-  //  credentials: true, // note: credentials cannot be used with '*' in CORS
-  })
-);
-
 // app.use(
 //   cors({
-//     origin: "http://localhost:3000", // frontend URL
-//     credentials: true,
+//     origin: '*', // allow all origins
+//   //  credentials: true, // note: credentials cannot be used with '*' in CORS
 //   })
 // );
+
+app.use(
+  cors({
+    origin: "http://localhost:3000", // frontend URL
+    credentials: true,
+  })
+);
 
 app.use(cookieParser());
 app.use(express.json());
