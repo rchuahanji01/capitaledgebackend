@@ -34,7 +34,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://capitaledgefrontend.onrender.com", // frontend URL
+    origin: "https://capitaledge-2.onrender.com", // frontend URL
     credentials: true,
   })
 );
