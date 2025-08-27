@@ -18,12 +18,20 @@ const fileUpload = require('express-fileupload');
 // create our Express app
 const app = express();
 
+// app.use(
+//   cors({
+//     origin: true,
+//     credentials: true,
+//   })
+// );
+
 app.use(
   cors({
-    origin: true,
-    credentials: true,
+    origin: '*', // allow all origins
+  //  credentials: true, // note: credentials cannot be used with '*' in CORS
   })
 );
+
 // app.use(
 //   cors({
 //     origin: "http://localhost:3000", // frontend URL
